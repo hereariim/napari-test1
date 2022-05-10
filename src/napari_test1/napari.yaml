@@ -17,11 +17,8 @@ contributions:
     - id: napari-test1.make_qwidget
       python_name: napari_test1._widget:ExampleQWidget
       title: Make example QWidget
-    - id: napari-test1.make_magic_widget
-      python_name: napari_test1._widget:example_magic_widget
-      title: Make example magic widget
-    - id: napari-test1.make_func_widget
-      python_name: napari_test1._widget:example_function_widget
+    - id: napari-pluginlvl2.make_func_widget
+      python_name: napari_pluginlvl2._widget:do_model_segmentation
       title: Make example function widget 
   readers:
     - command: napari-test1.get_reader
